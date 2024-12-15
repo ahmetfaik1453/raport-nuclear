@@ -1,4 +1,93 @@
+# Radyasyon Kalkanı Simülasyonu
 
+Bu proje, nükleer patlamalardan kaynaklanan radyasyona karşı manyetik kalkan sistemlerinin etkinliğini simüle eden bir Python uygulamasıdır.
+
+## Özellikler
+
+- Farklı parçacık tiplerinin (alfa, beta, nötron, gama) simülasyonu
+- Manyetik alan etkileşimlerinin gerçekçi modellemesi
+- 3D görselleştirme ve animasyon
+- Detaylı analiz grafikleri ve istatistikler
+- Kullanıcı dostu arayüz
+
+## Gereksinimler
+
+```
+numpy
+matplotlib
+tkinter
+tqdm
+```
+
+## Kurulum
+
+1. Python 3.7 veya daha yüksek bir sürümü yükleyin
+2. Gerekli paketleri pip ile yükleyin:
+   ```bash
+   pip install numpy matplotlib tqdm
+   ```
+3. Projeyi klonlayın veya indirin
+4. `radiation_shield.py` dosyasını çalıştırın:
+   ```bash
+   python radiation_shield.py
+   ```
+
+## Kullanım
+
+1. Simülasyon parametrelerini ayarlayın:
+   - Manyetik alan şiddeti (0.1 - 10.0 Tesla)
+   - Kalkan yarıçapı (100 - 1000 metre)
+   - Patlama gücü (1 - 100 kiloton TNT)
+   - Parçacık sayısı (100 - 5000)
+
+2. "Parametreleri Doğrula" butonuna tıklayın
+
+3. "Simülasyonu Başlat" butonuna tıklayarak simülasyonu çalıştırın
+
+4. Sonuçları görüntüleyin:
+   - 3D Görünüm: Parçacık yörüngelerinin üç boyutlu gösterimi
+   - Analiz Grafikleri: Penetrasyon derinliği, enerji kaybı, yörünge uzunluğu ve saçılma açısı dağılımları
+
+## Analiz Grafikleri
+
+1. **Penetrasyon Derinliği Analizi**
+   - Her parçacık tipinin kalkan içindeki maksimum ilerleme mesafesi
+   - Ortalama ve standart sapma değerleri
+
+2. **Enerji Kaybı Analizi**
+   - Parçacıkların kalkan içinde kaybettikleri enerji yüzdesi
+   - Kalkanın farklı parçacık tiplerine karşı etkinliği
+
+3. **Yörünge Uzunluğu Analizi**
+   - Parçacıkların kalkan içindeki toplam yol uzunluğu
+   - Saçılma ve sapma etkilerinin gösterimi
+
+4. **Saçılma Açısı Analizi**
+   - Parçacıkların giriş ve çıkış yönleri arasındaki açı
+   - Manyetik alanın yönlendirme etkisi
+
+## Fiziksel Model
+
+- **Manyetik Alan**: Dipol alan modeli kullanılarak hesaplanır
+- **Lorentz Kuvveti**: Yüklü parçacıkların manyetik alanla etkileşimi
+- **Parçacık Dinamiği**: Euler integrasyon yöntemi ile hesaplanır
+- **Enerji Kaybı**: Yüklü parçacıklar için kinetik enerji, nötronlar için üstel azalma
+
+## Katkıda Bulunma
+
+1. Bu depoyu fork edin
+2. Yeni bir branch oluşturun (`git checkout -b feature/yeniOzellik`)
+3. Değişikliklerinizi commit edin (`git commit -am 'Yeni özellik: X'`)
+4. Branch'inizi push edin (`git push origin feature/yeniOzellik`)
+5. Pull Request oluşturun
+
+## Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakın.
+
+## İletişim
+
+Sorularınız ve önerileriniz için bir Issue oluşturabilirsiniz. 
 
 
 
