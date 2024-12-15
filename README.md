@@ -1,6 +1,11 @@
+
+
+
+
  
 
 **Raporun Genişletilmiş Hali:**
+[Yüksek Enerjili Nötron ve Gama Işınlarının Enerji Düşürme.pptx](https://github.com/user-attachments/files/18142324/Yuksek.Enerjili.Notron.ve.Gama.Isinlarinin.Enerji.Dusurme.pptx)
 
 **Radyoaktif Zararlara Karşı Manyetik Koruma Sistemi Tasarımı ve Simülasyonu**
 
