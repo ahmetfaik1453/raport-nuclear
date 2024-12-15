@@ -83,7 +83,7 @@ tqdm
 
 ## Lisans
 
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakın.
+Bu proje   Apache lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakın.
 
 ## İletişim
 
