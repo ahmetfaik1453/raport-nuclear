@@ -87,7 +87,7 @@ Bu proje   Apache lisansı altında lisanslanmıştır. Detaylar için `LICENSE`
 
 ## İletişim
 
-Sorularınız ve önerileriniz için bir Issue oluşturabilirsiniz. 
+ahmetfaik1453@gmail.com
 
 
 
